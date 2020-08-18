@@ -21,7 +21,7 @@ body{
 
 .timer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #0433553d;
     height: 10rem;
@@ -35,8 +35,13 @@ body{
     top: -35%;
 }
 
-.timer * {
-    margin: 15px;
+.timer span {
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.timer span:first-child{
+    margin-left: 1rem;
 }
 
 
