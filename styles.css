@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #0433553d;
-    height: 15rem;
+    height: 10rem;
     width: 700px;
     color: #fff;
     font-size: 5rem;
@@ -32,7 +32,7 @@ body{
     box-shadow: 3px 3px 50px #032238,
                 -3px -3px 50px #011a2cad;
     position: relative;
-    top: -30%;
+    top: -35%;
 }
 
 .timer * {
@@ -42,6 +42,9 @@ body{
 
 @media (max-width: 600px){
     body{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
         height: 100vh;
         width: 100vw;
         background: url(https://1.bp.blogspot.com/-dLdWcGDNgG0/XWniX_wUoeI/AAAAAAAAYac/mK7aTdwRJl01FAmeyoha24Q4coiOuS3FACLcBGAs/s2560/the_boys_2019_tv_series_1080.jpg) no-repeat;
@@ -54,7 +57,7 @@ body{
         box-sizing: border-box;
         height: 10rem;
         width: 90vw;
-        font-size: 3rem;
+        font-size: 2.5rem;
         box-shadow: 3px 3px 50px #661310,
             -3px -3px 50px #661310;
         top: -0%;
